@@ -4,13 +4,13 @@
     <description>
         Recad Paulista.
     </description>
-    <author email="tulio@braconsultoria.com.br" href="http://recad.com.br">
+    <author email="tulio@braconsultoria.com.br" href="http://recad.com.br/">
         tuliodepadua
     </author>
     <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="26" />
-    <plugin name="cordova-plugin-whitelist"      source="npm" spec="1.1.0" />
+    <plugin name="cordova-plugin-whitelist" source="npm" spec="1.1.0" />
     <allow-navigation href="*" />
     <allow-intent href="*" />
     <access origin="*" />
@@ -85,10 +85,7 @@
         <splash height="1920" platform="windows" src="www/res/screen/windows/SplashScreenPhone.scale-240.png" width="1152" />
     </platform>
     <access origin="*" />
-  
-    <platform name="android">
-        <allow-intent href="market:*" />
-    </platform>
+    <platform name="android"></platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
