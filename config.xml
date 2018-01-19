@@ -7,7 +7,7 @@
     <author email="tulio@braconsultoria.com.br" href="http://recad.com.br/">
         tuliodepadua
     </author>
-    <content src="www/index.html" />
+    <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="22" />
     <plugin name="cordova-plugin-whitelist" source="npm" spec="1.1.0" />
