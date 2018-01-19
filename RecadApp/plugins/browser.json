@@ -1,0 +1,52 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "br.com.recad.recadapp"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "br.com.recad.recadapp"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "br.com.recad.recadapp"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "br.com.recad.recadapp"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "br.com.recad.recadapp"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "br.com.recad.recadapp"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "br.com.recad.recadapp"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "br.com.recad.recadapp"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "br.com.recad.recadapp"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "br.com.recad.recadapp"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "br.com.recad.recadapp"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "br.com.recad.recadapp"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "br.com.recad.recadapp"
+        }
+    }
+}
