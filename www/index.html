@@ -40,6 +40,7 @@
 <meta http-equiv="Content-Security-Policy" content="default-src *; 
                   style-src * 'self' 'unsafe-inline' 'unsafe-eval'; 
                   script-src * 'self' 'unsafe-inline' 'unsafe-eval';">
+    <link rel="stylesheet" type="text/css" href="css/materialize.min.css" />
     <link rel="stylesheet" type="text/css" href="css/index.css" />
     <title>Recad</title>
 </head>
@@ -48,21 +49,28 @@
    
 
 
-    <!-- <div class="border bgc">
-        <center>
-            <h2>Show/Hide iframe</h2>
-            <button id=toggle>toggle</button>
-        </center>
-    </div> -->
-    <!-- <div id=togglePane class=hide> -->
-        <iframe id=thing src="https://www.recad.com.br/5384mb" frameborder="0" scrolling="yes"></iframe>
-    <!-- </div> -->
+    <div id="loadAPP">
 
+        <div class="progress">
+            <div class="indeterminate"></div>
+        </div>
 
+        <div class="Limg">
+            <!-- <img src="img/recad.svg" class='' alt=""> -->
+        </div>
+        <div class="Limg">
+            <!-- <img src="img/previpaulista.svg" class='' alt=""> -->
+        </div>
 
+    </div>
+
+        <iframe id="thing" src="https://www.recad.com.br/5384mb" frameborder="0" scrolling="yes"></iframe>
 
     <script type="text/javascript" src="cordova.js"></script>
+    <!-- <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script> -->
     <script type="text/javascript" src="js/index.js"></script>
+
+
     <script type="text/javascript">
         app.initialize();
     </script>
