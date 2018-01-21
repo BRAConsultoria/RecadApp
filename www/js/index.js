@@ -34,9 +34,9 @@ var app = {
         // if (states[networkState] == "no") {
         //     alert("Verifique sua conexão com a internet");
         // }else{
-            setTimeout(function() {
-                    $("#loadAPP").animate({ height: "0px", opacity: "0", overflow: 'hidden' });
-            }, 5000);
+            // setTimeout(function() {
+            //     $("#loadAPP").animate({ height: "0px", opacity: "0", overflow: 'hidden' });
+            // }, 5000);
         // }
          
         //  alert("Connection type: " + states[networkState]);
