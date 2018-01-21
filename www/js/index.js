@@ -17,22 +17,7 @@ var app = {
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
-        app.receivedEvent('deviceready');
-
         app.checkConnection();
-
-
-    },
-    // Update DOM on a Received Event
-    receivedEvent: function(id) {
-        // var parentElement = document.getElementById(id);
-        // var listeningElement = parentElement.querySelector('.listening');
-        // var receivedElement = parentElement.querySelector('.received');
-
-        // listeningElement.setAttribute('style', 'display:none;');
-        // receivedElement.setAttribute('style', 'display:block;');
-
-        // console.log('Received Event: ' + id);
     },
     checkConnection: function() {
         var networkState = navigator.connection.type;
@@ -50,15 +35,10 @@ var app = {
             alert("Verifique sua conexão com a internet");
         }else{
             setTimeout(function() {
-
-                // $("#loadAPP").addClass('hide');
-                $("#loadAPP").animate({ height: "0px", opacity: "0", overflow: 'hidden' });
+                    $("#loadAPP").animate({ height: "0px", opacity: "0", overflow: 'hidden' });
             }, 5000);
-            //  $("#thing").load(function() {
-            //    console.log("laod the iframe");
-            //  });
-            // $("#thing").attr(    "src", "");
         }
-        
+         
+        //  alert("Connection type: " + states[networkState]);
     }
 };
